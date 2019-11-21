@@ -355,7 +355,7 @@ foreach my $scaff_chrom (@scaffold_ids) {
 	
 	render_phage( $scaff_chrom, $ref_arr_phages_found, $curr_fasta, $curr_gff, $phages_curr_scaffold, $curr_blast_union, $outdir );
 	
-	slice_out_phage_seq( $scaff_chrom, $ref_arr_phages_found, $curr_fasta, $outdir ); 
+	# slice_out_phage_seq( $scaff_chrom, $ref_arr_phages_found, $curr_fasta, $outdir ); 
 	
 }
 
